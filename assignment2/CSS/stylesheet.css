@@ -1,0 +1,112 @@
+h1{ /* generic/type selector */
+    color :black;
+    text-align: center;
+    text-decoration : underline;
+    background-color : bisque;
+}
+
+h2{ /* generic/type selector */
+    color :black;
+    text-decoration : underline;
+    background-color : bisque;
+}
+
+h3{ /* generic/type selector */
+    color :black;
+    background-color : bisque;
+}
+
+table,tr,td{
+    background-color: bisque;
+    border : 2px solid black;
+    border-collapse: collapse;
+    align-content: center;
+    margin: 0 auto;
+}
+
+body{
+    margin : 0 10%;
+}
+
+#h3{
+    text-align: center;
+}
+
+.coursework{
+    width:200px;
+}
+
+#resume-h3{
+    text-align: center;
+}
+
+#list-h3{
+    text-align: center;
+}
+
+#maps{
+    width: 500px;
+    height: 500px;
+    frameborder : 0;
+    alignment: center;
+}
+
+#circle{
+    list-style-type: circle;
+}
+
+#square{
+    list-style-type: square;
+}
+
+#i{
+    list-style-type: lower-alpha;
+}
+
+.table2{
+    width: 200px;
+}
+
+.table1{
+    width: 200px;
+}
+
+.tbwidth{
+    width:200px;
+    height:200px;
+}
+
+#heading1{
+    text-align: center;
+}
+
+#heading2 {
+    caption-side: bottom;
+}
+
+.btable{
+    border: blueviolet;
+}
+
+.nestedtables{
+    padding: 20px;
+    border: 20px;
+}
+
+#alignment{
+    text-align: center;
+}
+
+.valign{
+    width: 200px;
+    height: 200px;
+    vertical-align: bottom;
+}
+
+.aalign{
+    vertical-align: center;
+}
+
+.para-align{
+    text-align: right;
+}

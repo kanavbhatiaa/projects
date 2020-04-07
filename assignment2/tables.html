@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <meta name="description" content="Tables">
+    <meta name="author" content="Kanav Bhatia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stylesheet.css" type ="text/css">
+</head>
+<body>
+<a id="top"></a>
+<h1> HTML5 TABLES </h1>
+
+<table>
+    <tr>
+        <td>
+            &nbsp; &nbsp; &nbsp; &nbsp; <a href = "index.html"> HOME</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        </td>
+
+        <td>
+            &nbsp; &nbsp; &nbsp; &nbsp; <a href = "resume.html"> RESUME</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        </td>
+
+        <td>
+            &nbsp; &nbsp; &nbsp; &nbsp; <a href = "tables.html"> TABLES</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        </td>
+
+        <td>
+            &nbsp; &nbsp; &nbsp; &nbsp; <a href = "lists.html"> LISTS </a> &nbsp; &nbsp; &nbsp; &nbsp;
+        </td>
+
+        <td>
+            &nbsp; &nbsp; &nbsp; &nbsp; <a href = "contact.html"> CONTACT</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        </td>
+    </tr>
+</table >
+
+<hr>
+<br>
+
+<h3> Table 1 </h3>
+
+    <table>
+        <tr>
+            <th class="table1"> NAME </th>
+            <th class="table1"> HOMETOWN </th>
+        </tr>
+
+        <tr>
+            <td> KANAV BHATIA </td>
+            <td> AMRITSAR </td>
+        </tr>
+
+        <tr>
+            <td> ROHAN KHULLAR </td>
+            <td> JALANDHAR </td>
+        </tr>
+
+        <tr>
+            <td> DIKSHA GURNANI </td>
+            <td> DUBAI </td>
+        </tr>
+
+        <tr>
+            <td> JAHNVI SHARMA </td>
+            <td> NEW DELHI </td>
+        </tr>
+
+        <tr>
+            <td> SANIYA JUDDHA </td>
+            <td> MUMBAI </td>
+        </tr>
+
+        <tr>
+            <td> DHRITI MEHRA </td>
+            <td> CHANDIGARH </td>
+        </tr>
+
+    </table>
+<p class="para-align"><a href="#top"> TOP </a></p>
+<br>
+<hr>
+<br>
+<h3> Table 2 </h3>
+
+<table>
+        <tr>
+            <th class="table2"> FIRST NAME </th>
+            <th class="table2"> LAST NAME </th>
+            <th class="table2"> PROGRAM </th>
+            <th class="table2" > COLLEGE </th>
+
+        </tr>
+
+    <tr>
+        <td> KANAV </td>
+        <td> BHATIA </td>
+        <td rowspan ="3"> T147 </td>
+        <td rowspan = "3"> GEORGE BROWN COLLEGE </td>
+
+    </tr>
+
+    <tr>
+        <td> SANIYA </td>
+        <td> JUDDHA </td>
+
+
+    </tr>
+
+    <tr>
+        <td> ROHAN </td>
+        <td> KHULLAR </td>
+
+
+    </tr>
+    <tr>
+        <td> BHAVESH </td>
+        <td> SHARMA </td>
+        <td> B234 </td>
+        <td> UNIVERSITY OF ALBERTA </td>
+
+    </tr>
+
+    <tr>
+        <td> SRISHTI </td>
+        <td> MEHTA  </td>
+        <td> C144 </td>
+        <td> SENECA COLLEGE </td>
+    </tr>
+
+
+</table>
+<p class="para-align"><a href="#top"> TOP </a></p>
+<br>
+<hr>
+<br>
+<h3> Table 3 </h3>
+
+<table>
+    <tr>
+        <td>
+            <table class="nestedtables">
+                <caption id="heading1"> WORLD'S RAREST BIRDS </caption>
+                    <tr>
+                        <td>
+                            <img src="images/birds1.jpg" alt="BIRDS" height="300" width="300">
+                        </td>
+
+                        <td>
+                            <img src="images/birds2.jpg" alt="BIRDS" height="300" width="300">
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td>
+                        <img src="images/birds3.jpg" alt="BIRDS" height="300" width="300">
+                    </td>
+                    <td>
+                        <img src="images/birds4.jpg" alt="BIRDS" height="300" width="300">
+                    </td>
+                </tr>
+
+            </table>
+        </td>
+
+        <td>
+            <table class="nestedtables">
+                <caption id="heading2"> FACTS ABOUT BIRDS </caption>
+                <tr>
+
+                    <td class="tbwidth">
+                        Birds have feathers, wings, lay eggs and are warm blooded.
+                    </td>
+                    <td class="tbwidth">
+                        There are around 10000 different species of birds worldwide.
+                    </td>
+                    <td class="tbwidth">
+                        Scientists believe that birds evolved from theropod dinosaurs.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tbwidth">
+                        Hummingbirds can fly backwards.
+                    </td>
+                    <td class="tbwidth">
+                        Around 20% of bird species migrate long distances every year.
+                    </td>
+                    <td class="tbwidth">
+                        Homing pigeons are bred to find their way home from long distances away and have been used for thousands of years to carry messages.
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<p class="para-align"><a href="#top"> TOP </a></p>
+<br>
+<hr>
+<br>
+<h3> Table 4 </h3>
+
+<table>
+        <tr>
+            <td id="alignment">
+                <figure>
+                    <img src="images/gbc.jpg" alt="LOGO" width="400" height="200">
+                    <figcaption>LOGO OF GEORGE BROWN COLLEGE </figcaption>
+                </figure>
+                Kanav Bhatia <br>
+                Kanav.Bhatia@Georgebrown.ca
+            </td>
+        </tr>
+</table>
+<p class="para-align"><a href="#top"> TOP </a></p>
+<br>
+<hr>
+<br>
+<h3> Table 5 </h3>
+<table>
+        <tr>
+            <td class="valign"> COMP 1223 </td>
+            <td class="aalign"> COMP 1223 </td>
+        </tr>
+
+    <tr>
+        <td class="valign"> COMP 1223 </td>
+        <td class="aalign"> COMP 1223 </td>
+    </tr>
+
+    <tr>
+        <td class="aalign"> COMP 1223 </td>
+        <td class="valign"> COMP 1223 </td>
+    </tr>
+</table>
+<p class="para-align"><a href="#top"> TOP </a></p>
+
+<footer> <!--footer tag --!>
+    <p>Reviewed by - Rafaela Kodhima - 101239818 <a href="REVIEWER_101239818_RAFAELA_KODHIMA.pdf"> Reviewer </a> </p>
+    <p>Reviewee - Kanav Bhatia - 101278920 <a href="REVIEWEE_101278920_KANAV_BHATIA.pdf"> Reviewee </a> </p>
+</footer>
+
+</body>
+<script src=https://my.gblearn.com/js/loadscript.js></script>
+</body>
+</html>
