@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        form {
+            max-width: 300px;
+            margin: 0;
+            padding: 0 5px;
+        }
+        input[type=text],
+        input[type=email],
+        input[type=number],
+        textarea,
+        fieldset{
+            -webkit-appearance: none;
+            width: 100%;
+            border:1px solid #333;
+            margin:0;
+
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        input:invalid{
+            box-shadow: 0 0 5px 1px red;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <p>
+            <fieldset>
+                    <legend> *Gender </legend>
+                    <input type="radio" required name="gender" id="g1" value="Male">
+                    <label for = "g1"> Male </label>
+                    <input type="radio" required name="gender" id="g1" value="Female">
+                    <label for = "g1"> Female </label>
+                    <input type="radio" required name="gender" id="g1" value="Other">
+                    <label for = "g1"> Other </label>
+            </fieldset>
+        </p>
+        <p>
+            <label for="n1">How old are you ?</label>
+            <input type="number" min="1" max="100" id="n1" name="age">
+        </p>
+        <p>
+            <label for="t1"> What's your favourite Browser ? </label>
+            <input type="text" id="t1" name="age" name="browser" list="11" required>
+            <datalist id="11">
+                <option value ="Internet Explorer"> </option>
+                <option value ="Firefox"> </option>
+                <option value ="Chrome"> </option>
+                <option value ="Opera"> </option>
+                <option value ="Safari"> </option>
+            </datalist>
+        </p>
+        <p>
+            <label for="t2">What's your email address?</label>
+            <input type="email" id="t2" name="email">
+        </p>
+        <p>
+            <label for="t3">Please leave a short message</label>
+            <textarea type="msg" id="t3" name="email" rows="5 maxlength="140> </textarea>
+        </p>
+        <p>
+            <button> Submit </button>
+        </p>
+    </form>
+</body>
+</html>

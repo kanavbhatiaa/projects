@@ -1,0 +1,30 @@
+h1{ /* generic/type selector */
+    color :green;
+    text-decoration : underline;
+    background-color : cornsilk;
+}
+
+h2{ /* generic/type selector */
+    color : black;
+    text-decoration : underline;
+    background-color : aliceblue;
+}
+
+#box { /* id selector */
+    background-color: grey;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.thh { /* class selector */
+    background-color: darkcyan;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+}
+table, td, th{
+    border: 1px solid black;
+}

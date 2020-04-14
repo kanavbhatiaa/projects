@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table </title>
+    <meta name="description" content="Working with Tables in HTML 5">
+    <meta name="author" content="Mak Nikooray">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = "bookmark.png" type = "image/pmg">
+<style>
+    table, td, th{
+        border : 1px solid red;
+    }
+</style>
+</head>
+<body>
+
+    <h1> Week 4 Lab Exercise </h1>
+    <h2> Today we will practice creating followings : </h2>
+    <ul>
+        <li> Favicon </li>
+        <li> Table </li>
+        <li> <a href = "#thumbnail"> Thumbnail </a>/Image Link </li>
+        <li> Bookmark Link </li>
+        <li> <a href ="#para"> Paragraph </a> </li>
+    </ul>
+    <table border = "1">
+        <tr>
+            <th colspan="2"> Birthdays </th>
+        </tr>
+        <tr>
+            <td> Sarah  </td>
+            <td> Jan 30 </td>
+        </tr>
+        <tr>
+            <td> John </td>
+            <td> Feb 14 </td>
+        </tr>
+        <tr>
+            <td> Ava </td>
+            <td> Nov 26 </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <table border = "1">
+        <tr>
+            <th colspan="2"> Birthdays </th>
+        </tr>
+        <tr>
+            <td> Sarah  </td>
+            <td> Jan 30 </td>
+        </tr>
+        <tr>
+            <td> Johny </td>
+            <td rowspan = "4"> Feb 14 </td>
+        </tr>
+        <tr>
+            <td> Sakshi </td>
+
+        </tr>
+        <tr>
+            <td> Sam </td>
+
+        </tr>
+        <tr>
+            <td> Mike </td>
+
+        </tr>
+        <tr>
+            <td> Ava </td>
+            <td> Nov 26 </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <hr>
+    <h2 id="thumbnail"> Thumbnails </h2>
+    <table id ="table-thumb">
+        <tr>
+            <td>
+                <a href ="images/building.jpg" target = "myTab">
+                <img src="images/building-s.jpg" height="60" width="60" alt= building">
+                </a>
+            </td>
+            <td>
+                <a href ="images/beach.jpg" target = "myTab">
+                <img src="images/beach-s.jpg" height="60" width="60" alt ="beach">
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <a href ="images/leaf.jpg" target = "myTab">
+                <img src="images/leaf-s.jpg" height="60" width="60" alt ="leaf">
+                </a>
+            </td>
+            <td>
+                <a href ="images/wolf.jpg" target = "myTab">
+                <img src="images/wolf-s.jpg" height="60" width="60" alt ="wolf">
+                </a>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <hr>
+    <h2> PARAGRAPH DEMO </h2>
+    <p id = "para">
+        A computer is a machine that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming. Modern computers have the ability to follow generalized sets of operations, called programs. These programs enable computers to perform an extremely wide range of tasks. A "complete" computer including the hardware, the operating system (main software), and peripheral equipment required and used for "full" operation can be referred to as a computer system. This term may as well be used for a group of computers that are connected and work together, in particular a computer network or computer cluster.
+
+        Computers are used as control systems for a wide variety of industrial and consumer devices. This includes simple special purpose devices like microwave ovens and remote controls, factory devices such as industrial robots and computer-aided design, and also general purpose devices like personal computers and mobile devices such as smartphones. The Internet is run on computers and it connects hundreds of millions of other computers and their users.
+
+        Early computers were only conceived as calculating devices. Since ancient times, simple manual devices like the abacus aided people in doing calculations. Early in the Industrial Revolution, some mechanical devices were built to automate long tedious tasks, such as guiding patterns for looms. More sophisticated electrical machines did specialized analog calculations in the early 20th century. The first digital electronic calculating machines were developed during World War II. The first semiconductor transistors in the late 1940s were followed by the silicon-based MOSFET (MOS transistor) and monolithic integrated circuit (IC) chip technologies in the late 1950s, leading to the microprocessor and the microcomputer revolution in the 1970s. The speed, power and versatility of computers have been increasing dramatically ever since then, with MOS transistor counts increasing at a rapid pace (as predicted by Moore's law), leading to the Digital Revolution during the late 20th to early 21st centuries.
+    </p>
+<script src=https://my.gblearn.com/js/loadscript.js></script>
+</body>
+</html>

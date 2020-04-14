@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+    <meta name="description" content="Practice using some of the CSS selectors">
+    <meta name="author" content="Mak Nikooray">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    /*p{
+        color: red;
+    }*/
+    div > p{
+        color: blue;
+    }
+    section p{
+        font-size: 1.2em;
+    }
+    div + p{
+        color: red;
+    }
+    div ~ p{
+        text-decoration: underline;
+    }
+    div :nth-child(2){
+        font-weight: bold;
+    }
+  ul :nth-child(odd){
+      background: aqua;
+  }
+</style>
+</head>
+<body>
+    <h1> Practice using some of the CSS selectors </h1>
+        <div>
+            <p> First Para inside div </p>
+            <p> Second Para inside div </p>
+            <p> Third Para inside div </p>
+    <section>
+            <p> Para inside section that is inside a div </p>
+    </section>
+        </div>
+            <p> First para outside div </p>
+            <p> Second para outside div </p>
+    <section>
+            <p> Para inside section that is inside a div </p>
+    </section>
+            <p> Another para outside div </p>
+    <ul>
+        <li> ITEM 1 </li>
+        <li> ITEM 2 </li>
+        <li> ITEM 3 </li>
+        <li> ITEM 4 </li>
+        <li> ITEM 5 </li>
+    </ul>
+<script src=https://my.gblearn.com/js/loadscript.js></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+table,th,td,tr{
+    border: 2px solid black;
+    border-color: green;
+    border-collapse: collapse;
+}
+
+
+
+.colorchange{
+    background-color: black;
+    color: white;
+    width : 200px;
+}
+
+.fruits{
+    color: red;
+    width : 200px;
+}

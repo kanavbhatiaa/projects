@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+    <meta name="description" content="Practice using float in CSS">
+    <meta name="author" content="Mak Nikooray">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        header, footer{
+            height: 40px;
+            background: black;
+            color: white;
+        }
+        main{
+            height: 400px;
+            width: 90%;
+            border-right : 2px solid gray;
+            border-left : 2px solid gray;
+            margin:auto;
+        }
+        main > aside{
+            width: 20%;
+            height: 300px;
+            background: lightblue;
+            float:right;
+        }
+        main > section{
+            width: 67%;
+            height: 300px;
+            background: lightgreen;
+            float:left;
+        }
+        main > article{
+            clear: both;
+            clear: left;
+            clear: right;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1> Practice using float in CSS</h1>
+    </header>
+    <main>
+        <aside> Sidebar </aside>
+        <section> Main Section </section>
+        <article> SOME ARTICLE </article>
+    </main>
+    <footer> &copy; 2020 COMP1223 </footer>
+    <script src=https://my.gblearn.com/js/loadscript.js></script>
+</body>
+</html>

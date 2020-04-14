@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML FORMS</title>
+    <meta name="description" content="HTML Forms">
+    <meta name="author" content="Kanav Bhatia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        td,th,table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: 10px;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th><label for ="fname"> First Name </label></th>
+                <td colspan="3"><input type="text" id="fname" name="fname" size="50" </td>
+            </tr>
+
+            <tr>
+                <th><label for ="lname"> Last Name </label></th>
+                <td colspan="3"><input type="text" id="lname" name="lname" size="50" </td>
+            </tr>
+
+            <tr>
+                <th><label for ="password"> Password </label></th>
+                <td colspan="3"><input type="password" id="password" name="password" size="30" </td>
+            </tr>
+
+            <tr>
+                <th><label for ="city"> City </label></th>
+                <td><input type="city" id="city" name="city"</td>
+                <th><label for ="province"> Province </label></th>
+                <td><input type="province" id="province" name="province"</td>
+            </tr>
+
+            <tr>
+                <th><label for ="country"> Country </label></th>
+                <td colspan="3"><select name="country">
+                    <option value="1"> US </option>
+                    <option value="1"> Canada </option>
+                    <option value="1"> Brazil </option>
+                    <option value="1"> Mexico </option>
+                </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th><label for ="phone-number"> Phone </label></th>
+                <td colspan="3">
+                    (+ <input id="country-code" name="country-code" type="tel" size="3">)-
+                    <input id="area-code" name="area-code" type="tel" size="3">-
+                    <input id="number" name="number" type="tel" size="10">
+                </td>
+            </tr>
+
+            <tr>
+                <th><label for="email">Email</label></th>
+                <td colspan="3"><input id="email" name="email" type="email"></td>
+            </tr>
+
+            <tr>
+                <th><label for="birthday">Birthday</label></th>
+                <td colspan="3"><input id="birthday" name="birthday" type="date"></td>
+            </tr>
+
+            <tr>
+                <th><label for="gender">Gender</label></th>
+                <td colspan="3">
+                    <input type="checkbox" name="gender" value="male"> Male <br>
+                    <input type="checkbox" name="gender" value="female"> Female <br>
+                    <input type="checkbox" name="gender" value="other"> Other <br>
+                </td>
+            </tr>
+
+            <tr>
+                <th><label for="payment">Payment</label></th>
+                <td colspan="3">
+                    <input type="checkbox" name="payment1" value="credity"> Credit <br>
+                    <input type="checkbox" name="payment2" value="debit"> Debit <br>
+                    <input type="checkbox" name="payment3" value="cash"> Cash <br>
+                </td>
+            </tr>
+
+            <tr>
+                <th><label for="color">Select Colour</label></th>
+                <td><input type="color" name="color"></td>
+                <th><label for="file">Select a File</label></th>
+                <td><input type="file" id="myfile" name="myfile" accept=".doc, .docx, application/msword"></td>
+            </tr>
+
+            <tr>
+                <th><label for="audio">Audio Settings</label></th>
+                <td colspan="3"><input type="range" id="volume" name="volume" min="0" max="100" step="10"></td>
+            </tr>
+
+            <tr>
+                <th><label for="comments">Comment and Questions</label></th>
+                <td colspan="3"><textarea name="comts" rows="10" cols="70"> Please enter your comments and questions</textarea></td>
+            </tr>
+
+            <tr>
+                <td colspan="3"><input type="submit"></td>
+                <td><input type="reset"></td>
+            </tr>
+        </table>
+    </form>
+<script src=https://my.gblearn.com/js/loadscript.js></script>
+</body>
+</html>

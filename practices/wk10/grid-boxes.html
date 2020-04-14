@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+    <meta name="description" content="Template">
+    <meta name="author" content="Mak Nikooray">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        main {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-gap: 1em;
+            grid-auto-rows: minmax(100px, auto);
+        }
+        main>div:nth-child(odd){
+            background-color: lightgreen;
+        }
+        main>div:nth-child(even) {
+            background-color: lightblue;
+        }
+        #box1{
+            grid-column: 1/3;
+            grid-row: 1/3;
+        }
+        #box4{
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box" id="box1">BOX 1</div>
+        <div class="box" id="box2">BOX 2</div>
+        <div class ="box" id="box3">BOX 3 </div>
+        <div class ="box" id="box4">BOX 4 </div>
+    </main>
+
+<script src=https://my.gblearn.com/js/loadscript.js></script>
+</body>
+</html>

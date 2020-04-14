@@ -1,0 +1,27 @@
+
+.box{ /* class selector */
+    background-color : grey;
+    margin :10px;
+    width: 300px;
+    height: 200px;
+    border : 3px solid black;
+}
+h2{
+    color :green;
+    text-decoration : underline;
+    background-color : cornsilk;
+}
+#idSelector{ /* id selector*/
+    color : indigo;
+    font-style: italic;
+}
+li{
+    color : yellow;
+}
+li{
+    color: grey;
+}
+.myClass{
+    color: ivory;
+    background-color : darksalmon;
+}

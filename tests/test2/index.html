@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAB TEST 2</title>
+    <meta name="description" content="LAB TEST 2">
+    <meta name="author" content="KANAV BHATIA">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        fieldset{
+            border: 5px dashed gray;
+            padding: 10px;
+        }
+        form{
+            height: 400px;
+            width: 500px;
+            background-color: lightyellow;
+            padding: 20px;
+        }
+
+        legend{
+            color: blue;
+        }
+        input:focus{
+            border: 2px solid red ;
+            border-radius: 10px;
+        }
+        #days{
+            color: blue;
+        }
+        select {
+            width: 225px;
+        }
+        label{
+            font-size: large;
+        }
+    </style>
+
+</head>
+<body>
+<h1>My Name is Kanav Bhatia - Student ID: 101278920</h1>
+<form>
+    <p>
+    <label for="days"> Preferred day/s of service : </label>
+    <br>
+    <select id="days" name="days" size="4">
+        <option value="monday"> Monday </option>
+        <option value="tuesday"> Tuesday </option>
+        <option value="wednesday"> Wednesday </option>
+        <option value="thursday"> Thursday </option>
+        <option value="friday"> Friday </option>
+        <option value="saturday"> Saturday </option>
+        <option value="sunday"> Sunday </option>
+    </select>
+    </p>
+    <p>
+    <label>Preferred time : </label>
+    <input type="checkbox" name="time" id="time1" value="morning"> Morning
+    <input type="checkbox" name="time" id="time2" value="afternoon" checked> Afternoon
+    </p>
+        <label for="subject"> Subject : </label>
+        <input type="text" name="subject" id="subject" size="40">
+    </p>
+    <p>
+        <textarea name="comts" rows="10" cols="50"> Write your message here </textarea>
+    </p>
+    <p>
+    <button> Submit </button>
+    </p>
+</form>
+
+<script src=https://my.gblearn.com/js/loadscript.js></script>
+</body>
+</html>

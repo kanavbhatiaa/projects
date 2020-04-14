@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Float</title>
+    <meta name="description" content="Practice using float in CSS">
+    <meta name="author" content="Mak Nikooray">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            width: 90%;
+            margin: auto;
+        }
+        section > figure{
+            border: 1px solid red;
+            float:left;
+            margin-top: 5px;
+            margin-right: 5px;
+            padding: 1%;
+            width: 21%;
+            background: gainsboro;
+            color: green;
+            text-align: center;
+            border-radius: 10px;
+        }
+        section + p{
+            clear: left;
+        }
+        .caption-heading{
+            font-size: 1.2em;
+            display: block;
+            color: cornflowerblue;
+        }
+        figure > img{
+            margin-top: 8px;
+            box-shadow: -10px -10px 10px grey;
+        }
+        @media print{
+            figure > img{
+                margin-top: 3px;
+                box-shadow: 3px 3px 3px grey;
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <h1> Practice using float in CSS</h1>
+    <section>
+        <figure>
+            <img src="https://picsum.photos/220" alt="Random Image" height="220">
+            <figcaption>
+                <span class="caption-heading">Title of this image.</span> Some random text!
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="https://picsum.photos/220" alt="Random Image" height="220">
+            <figcaption>
+                <span class="caption-heading">Title of this image.</span> Some random text!
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="https://picsum.photos/220" alt="Random Image" height="220">
+            <figcaption>
+                <span class="caption-heading">Title of this image.</span> Some random text!
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="https://picsum.photos/220" alt="Random Image" height="220">
+            <figcaption>
+                <span class="caption-heading">Title of this image.</span> Some random text!
+            </figcaption>
+        </figure>
+    </section>
+    <p> I am floating !!!! </p>
+<script src=https://my.gblearn.com/js/loadscript.js></script>
+</body>
+</html>
